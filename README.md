@@ -2,7 +2,6 @@
 Full credit goes to [DarkSnakeGang](https://github.com/DarkSnakeGang/GoogleSnakeModLoader).
 
 ## How to make it work...
-I will be working on a interception bookmarklet to hopefully make this easier, but probably not so just follow these steps.
 
 1. Search up any type of snake game.
 2. The second you press enter click on the bookmarklet and hope you have slow wifi.
@@ -10,4 +9,7 @@ I will be working on a interception bookmarklet to hopefully make this easier, b
 
 YOU HAVE TO CLICK THE BOOKMARKLET BEFORE THE PAGE LOADS!!!
 
-Drag this to you're bar:
+Just bookmark this as the url:
+```js
+javascript:fetch(%60https://raw.githubusercontent.com/RatInChat/SnakeModsBookmarklet/main/bookmarklet.js%60).then(data%3D%3E%7Bdata.text().then(text%3D%3E%7Beval(text)%7D)%7D)%3B
+```
