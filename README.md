@@ -9,7 +9,4 @@ Full credit goes to [DarkSnakeGang](https://github.com/DarkSnakeGang/GoogleSnake
 
 YOU HAVE TO CLICK THE BOOKMARKLET BEFORE THE PAGE LOADS!!!
 
-Just bookmark this as the url:
-```js
-javascript:fetch(%60https://raw.githubusercontent.com/RatInChat/SnakeModsBookmarklet/main/bookmarklet.js%60).then(data%3D%3E%7Bdata.text().then(text%3D%3E%7Beval(text)%7D)%7D)%3B
-```
+Just bookmark the code in bookmarklet.js. (copy paste into url part of bookmark.)
